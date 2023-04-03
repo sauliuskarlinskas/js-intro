@@ -104,27 +104,100 @@ console.log(s2);
 const s3 = 'Labas' + ' ' + 'rytas';
 console.log(s3);
 
-console.log('-------NAMU DARBAS----------')
 
-const penki = 5;
-console.log(penki);
 
-const septyni = 7;
-console.log(septyni);
 
-const q = 96;
-console.log(q);
+// Sveiki, Rimantas!
 
-const miestas = 'Palanga';
-console.log(miestas);
+const username1 = 'Jonas';
+const username2 = 'Maryte';
+const username3 = 'Petras';
+const username4 = 'Ona';
 
-const maistas = 'pica';
-console.log(maistas);
+const hi1 = 'Sveiki, ' + username1 + '!';
+const hi2 = 'Sveiki, ' + username2 + '!';
+const hi3 = 'Sveiki, ' + username3 + '!';
+const hi4 = 'Sveiki, ' + username4 + '!';
 
-const g1 = 'katinas';
-console.log(g1);
+console.log(hi1);
+console.log(hi2);
+console.log(hi3);
+console.log(hi4);
 
-console.log(penki + septyni + q);
+// Vienguba (') kabute.
+const kabute1 = "Vienguba (') kabute.";
+console.log(kabute1);
 
-console.log(miestas +' ' + maistas +' ' + g1 + '.');
+// Dviguba (") kabute.
+const kabute2 = 'Dviguba (") kabute.';
+console.log(kabute2);
 
+// Vienguba (') ir dviguba (") kabutes.
+const kabute12 = "Vienguba (') ir" + ' dviguba (") kabutes.';
+console.log(kabute12);
+
+const kabute12_1 = 'Vienguba (\') ir dviguba (") kabutes.';
+console.log(kabute12_1);
+
+const kabute12_2 = "Vienguba (') ir dviguba (\") kabutes.";
+console.log(kabute12_2);
+
+const kabute12_3 = "Vienguba (\') ir dviguba (\") kabutes.";
+console.log(kabute12_3);
+
+const kabute3 = `Vienguba (') ir dviguba (") kabutes.`;
+console.log(kabute3);
+
+// Kabutes: '"`.
+const kabuteAll1 = 'Kabutes: \'"`.';
+const kabuteAll2 = "Kabutes: '\"`.";
+const kabuteAll3 = `Kabutes: '"\`.`;
+const kabuteAll4 = `Kabutes: \'\"\`.`;
+
+console.log(kabuteAll1);
+console.log(kabuteAll2);
+console.log(kabuteAll3);
+console.log(kabuteAll4);
+
+/*
+<header>
+    <img src="./logo.png" alt="Logo">
+    <nav>
+        <a href="/">Link</a>
+        <a href="/">Link</a>
+        <a href="/">Link</a>
+    </nav>
+</header>
+*/
+
+const logoPath = './logo.png';
+
+const HTML = '\
+<header>\n\r\
+\t<img src="' + logoPath + '" alt="Logo">\n\r\
+\t<nav>\n\r\
+\t\t<a href="/">Link</a>\n\r\
+\t\t<a href="/">Link</a>\n\r\
+\t\t<a href="/">Link</a>\n\r\
+\t</nav>\n\r\
+</header>';
+console.log(HTML);
+
+const HTML2 = `<header>
+    <img src="${logoPath}" alt="Logo">
+    <nav>
+        <a href="/">Link</a>
+        <a href="/">Link</a>
+        <a href="/">Link</a>
+    </nav>
+</header>`;
+console.log(HTML2);
+
+// Your lucky number is 7. Congz!
+const userNumber = 777;
+console.log(`Your lucky number is ${userNumber}. Congz!`);
+
+const vardenis = 'Petras';
+const amzius = 99;
+
+console.log(`Sveiki, mano vardas ${vardenis} ir man ${amzius} metu.`);

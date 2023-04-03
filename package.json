@@ -4,6 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "namudarbai": "nodemon ./js/06-namudarbai.js",
+    "typeof": "nodemon ./js/05-typeof.js",
+    "array": "nodemon ./js/04-array.js",
+    "boolean": "nodemon ./js/03-boolean.js",
     "strings": "nodemon ./js/02-strings.js",
     "numbers": "nodemon ./js/01-numbers.js",
     "dev": "nodemon",
