@@ -72,3 +72,7 @@ console.log(gg);
 
 gg = {};
 console.log(gg);
+
+const person = {
+    
+}

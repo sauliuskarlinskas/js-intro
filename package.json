@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "if": "nodemon ./js/09-if.js",
+    "function": "nodemon ./js/08-function.js",
     "object": "nodemon ./js/07-object.js",
     "namudarbai": "nodemon ./js/06-namudarbai.js",
     "typeof": "nodemon ./js/05-typeof.js",
