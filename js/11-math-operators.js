@@ -108,3 +108,4 @@ console.log('7 % 9 =', 7 % 9);
 console.log('17 % 9 =', 17 % 9);
 console.log('17 % 2 =', 17 % 2);
 console.log('16 % 2 =', 16 % 2);
+console.log(250%150);

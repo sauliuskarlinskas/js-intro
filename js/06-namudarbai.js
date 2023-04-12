@@ -1,4 +1,6 @@
-console.log('-------NAMU DARBAS----------');
+console.clear();
+
+console.log('-------NAMU DARBAI----------');
 
 console.log('--------Kintamųjų inicijavimas--------');
 
@@ -300,7 +302,7 @@ console.log('----3----');
 
 function skaitmenuKiekisSkaiciuje (a) {
     let result = '';
-    if (isNaN(a)) {
+    if ( isNaN(a) ) {
         result = ('Pateikta netinkamo tipo reikšmė.');
     } else {
         result = a.toString().length;

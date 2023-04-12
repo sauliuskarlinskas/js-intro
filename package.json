@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "spread-rest": "nodemon ./js/18-spread-rest.js",
+    "math-methods": "nodemon ./js/17-math-methods.js",
+    "array-methods": "nodemon ./js/16-array-methods.js",
     "string-methods": "nodemon ./js/15-string-methods.js",
     "arrow": "nodemon ./js/14-arrow.js",
     "ternary": "nodemon ./js/13-ternary.js",
