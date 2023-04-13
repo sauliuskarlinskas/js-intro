@@ -366,12 +366,14 @@ function didziausiasSkaiciusSarase (sarasas) {
     console.log('----6----');
 
     function dalyba(a,b){
-        if(isNaN(a) === true){
+        if(a<0 ){
             return 'pirmasis kintamasis yra netinkamo tipo';
-        }else if(isNaN(b) === true){
+        }else if(NaN(b) == true){
             return 'antrasis kintamasis yra netinkamo tipo';
         }else {
             return "a / b = "+a/b;
         }
     }   
-     console.log(dalyba(520,3));
+     console.log(dalyba(-1,3));
+
+    

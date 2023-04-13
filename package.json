@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "loops": "nodemon ./js/19-loops.js",
+    "codeWars": "nodemon ./js/codeWars.js",
     "spread-rest": "nodemon ./js/18-spread-rest.js",
     "math-methods": "nodemon ./js/17-math-methods.js",
     "array-methods": "nodemon ./js/16-array-methods.js",
