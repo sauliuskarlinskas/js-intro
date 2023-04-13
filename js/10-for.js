@@ -74,6 +74,7 @@ for (let s = 0; s < students.length; s++) {
     }
 }
 
+
 console.clear();
 
 const hi = 'labas';

@@ -341,19 +341,37 @@ function didziausiasSkaiciusSarase (sarasas) {
     function isrinktiRaides (a, b) {
         let result = '';
         if (typeof a !== 'string') {
-            result = 'Pirmasis kintamasis yra netinkamo tipo'
+            return 'Pirmasis kintamasis yra netinkamo tipo';
         } else if (a.length == 0 && a.length < 100) {
-            result = 'Pirmojo kintamojo reikšmė yra netinkamo dydžio.'
+            return 'Pirmojo kintamojo reikšmė yra netinkamo dydžio.';
         } else if (isNaN(b) == true) {
-            result = 'Antrasis kintamasis yra netinkamo tipo.'
+            return 'Antrasis kintamasis yra netinkamo tipo.';
         } else if (b <= 0) {
-            result = 'Antrasis kintamasis turi būti didesnis už nulį.'
+            return 'Antrasis kintamasis turi būti didesnis už nulį.';
         } else if (b > a.length) {
-            result = 'Antrasis kintamasis turi būti ne didesnis už pateikto teksto ilgį.'
+            return 'Antrasis kintamasis turi būti ne didesnis už pateikto teksto ilgį.';
         } else {
-            for (i = 0; i < a.length; i=i+b) {
-                result += (a[i]);}
+            for (i = b-1; i < a.length; i+=b) {
+                result += (a[i]);
+        }
+        return result;
+        }
     }
-        return result
-    }
- console.log(isrinktiRaides("abcdefg", 2 ));    
+    console.log(isrinktiRaides("abcdefg", 2 ));
+    console.log(isrinktiRaides("abcdefghijkl", 3 ));
+    console.log(isrinktiRaides("abc", 0 ));
+    console.log(isrinktiRaides("abc", 4 ));
+    console.log(isrinktiRaides(1561, 2 ));
+
+    console.log('----6----');
+
+    function dalyba(a,b){
+        if(isNaN(a) === true){
+            return 'pirmasis kintamasis yra netinkamo tipo';
+        }else if(isNaN(b) === true){
+            return 'antrasis kintamasis yra netinkamo tipo';
+        }else {
+            return "a / b = "+a/b;
+        }
+    }   
+     console.log(dalyba(520,3));
